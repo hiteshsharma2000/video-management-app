@@ -50,7 +50,7 @@ app.post("/upload", upload.single('file'), (req, res) => {
   });
   
 
-app.listen(2200,async(req,res)=>{
+app.listen(4000,async(req,res)=>{
     await connected
     console.log("connected to server")
 })
